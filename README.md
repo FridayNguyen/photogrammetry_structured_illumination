@@ -147,6 +147,7 @@ scanned.
 Each set of input images resulted in a partial colored mesh of
 the object, which can be parsed into a ply file and imported into
 MeshLab
+
 ![image](https://user-images.githubusercontent.com/44386004/179341161-cff6636b-6a44-484d-94c6-0b7e31fd97b9.png)
 
 The meshes were then aligned together to form the
@@ -157,8 +158,10 @@ and merged, the mesh must
 undergo Poisson surface reconstruction, which can also
 accomplished within MeshLab. This will correct the missing
 surfaces and create an airtight mesh
+
 ![image](https://user-images.githubusercontent.com/44386004/179341168-37c32ce0-15da-435c-8949-d4a6ee49abf1.png)
 
 Finally, the final mesh can be exported into Blender and rendered, ready for viewing.
+
 ![image](https://user-images.githubusercontent.com/44386004/179341197-55cd652d-f7fa-4b0e-92bc-660340e7f398.png)
 
